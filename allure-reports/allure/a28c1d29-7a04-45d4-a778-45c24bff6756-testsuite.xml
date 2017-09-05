@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504262129430' stop='1504262135063'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504262129436' status='broken' stop='1504262135061'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504262129448' status='passed' stop='1504262129493'>
+                    <name>POST /wd/hub/session/febea3b582bf0a637c45412120e5d123/url</name>
+                    <title>POST /wd/hub/session/febea3b582bf0a637c45412120e5d123/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d1d30fcd-4915-474f-9578-6a5f710a5451-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='e5244fec-bb2e-4d4f-b188-980b43a2732a-attachment.json' type='application/json' size='594'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='ae445a9b-0c5d-457d-a89e-f787d0293b75-attachment.json' type='application/json' size='666'/>
+                <attachment title='Response' source='7b8dcf6b-14ee-46f8-ac7a-51eb0878adf0-attachment.json' type='application/json' size='594'/>
+                <attachment title='Response' source='8c88a027-83fc-41aa-8192-e6aa6730ec6d-attachment.json' type='application/json' size='666'/>
+                <attachment title='Response' source='ce56c943-e5fa-4754-8473-b78f8907535a-attachment.json' type='application/json' size='91'/>
+            </attachments>
+            <failure>
+                <message>this.searchInputBox is not a function</message>
+                <stack-trace>TypeError: this.searchInputBox is not a function
+                    at Object.search (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/homePageNew.js:15:12)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:27:16)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

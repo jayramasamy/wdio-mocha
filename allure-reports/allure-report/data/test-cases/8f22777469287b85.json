@@ -1,0 +1,99 @@
+{
+  "uid" : "8f22777469287b85",
+  "name" : "I should see the slot details on the context card",
+  "fullName" : "sanity test golden path.I should see the slot details on the context card",
+  "historyId" : "31e30180e0124429faeed26c4222f791",
+  "time" : {
+    "start" : 1504192436254,
+    "stop" : 1504192436874,
+    "duration" : 620
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot read property 'selector' of undefined",
+    "trace" : "TypeError: Cannot read property 'selector' of undefined\n                    at waitForVisible(, 10000, ) - index.js:316:3",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Cannot read property 'selector' of undefined",
+      "trace" : "TypeError: Cannot read property 'selector' of undefined\n                    at waitForVisible(, 10000, ) - index.js:316:3",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/d06d37aedc5054d02f3ce7ba50e88ad7/screenshot",
+      "time" : {
+        "start" : 1504192436269,
+        "stop" : 1504192436838,
+        "duration" : 569
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59289ee95d1fbc8d",
+        "name" : "Screenshot",
+        "source" : "59289ee95d1fbc8d.png",
+        "type" : "image/png",
+        "size" : 73194
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see the slot details on the context card"
+  }, {
+    "name" : "package",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "8f22777469287b85.json",
+  "statusDetailsSafe" : {
+    "message" : "Cannot read property 'selector' of undefined",
+    "trace" : "TypeError: Cannot read property 'selector' of undefined\n                    at waitForVisible(, 10000, ) - index.js:316:3",
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}

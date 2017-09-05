@@ -1,0 +1,155 @@
+{
+  "uid" : "696fd2e5e2127c59",
+  "name" : "I am signed out",
+  "fullName" : "sanity test golden path.I am signed out",
+  "historyId" : "a3609ab6c64735ad8ed8ad4cc12c6950",
+  "time" : {
+    "start" : 1504192593881,
+    "stop" : 1504192594359,
+    "duration" : 478
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d06d37aedc5054d02f3ce7ba50e88ad7/elements",
+      "time" : {
+        "start" : 1504192593883,
+        "stop" : 1504192593889,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2780e355db9fd592",
+        "name" : "Request",
+        "source" : "2780e355db9fd592.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "24f85414a39ac518",
+        "name" : "Response",
+        "source" : "24f85414a39ac518.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d06d37aedc5054d02f3ce7ba50e88ad7/elements",
+      "time" : {
+        "start" : 1504192593890,
+        "stop" : 1504192593896,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a15a85a442c77a63",
+        "name" : "Request",
+        "source" : "a15a85a442c77a63.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "d5a055af065db2b3",
+        "name" : "Response",
+        "source" : "d5a055af065db2b3.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d06d37aedc5054d02f3ce7ba50e88ad7/elements",
+      "time" : {
+        "start" : 1504192594360,
+        "stop" : 1504192594403,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a39ab7672eb56c30",
+        "name" : "Request",
+        "source" : "a39ab7672eb56c30.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "5b8e4ef5a5d5f8c2",
+        "name" : "Screenshot",
+        "source" : "5b8e4ef5a5d5f8c2.png",
+        "type" : "image/png",
+        "size" : 498361
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d95dd9107fa4c33f",
+      "name" : "Response",
+      "source" : "d95dd9107fa4c33f.json",
+      "type" : "application/json",
+      "size" : 89
+    }, {
+      "uid" : "c952b78700ef9a95",
+      "name" : "Response",
+      "source" : "c952b78700ef9a95.json",
+      "type" : "application/json",
+      "size" : 162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am signed out"
+  }, {
+    "name" : "package",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "696fd2e5e2127c59.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504259033475' stop='1504259037561'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504259033476' status='broken' stop='1504259037559'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504259033483' status='passed' stop='1504259037278'>
+                    <name>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/url</name>
+                    <title>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='667f44e1-b607-4c53-aef7-706ad4cf4559-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='7fac45d8-0a66-4f42-9584-882580e8f8b3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504259037291' status='passed' stop='1504259037342'>
+                    <name>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/element</name>
+                    <title>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='82af6332-7a9d-4358-abeb-8e2262acc417-attachment.json' type='application/json' size='43'/>
+                        <attachment title='Response' source='715ce937-da40-4c04-8c14-477d54b55d59-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504259037350' status='passed' stop='1504259037378'>
+                    <name>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/element/0.9701508477019805-1/clear</name>
+                    <title>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/element/0.9701508477019805-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='5569f3d4-19b7-471d-ba42-372cd3a9e4f9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504259037381' status='passed' stop='1504259037535'>
+                    <name>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/element/0.9701508477019805-1/value</name>
+                    <title>POST /wd/hub/session/c331df8cd21d505d72b7445dc71c284c/element/0.9701508477019805-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='513643be-0bea-4b5c-ae19-38c77720b995-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='0f744b68-dc38-413b-bdf0-9b6640911485-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.searchGoButton is not a function</message>
+                <stack-trace>TypeError: this.searchGoButton is not a function
+                    at Object.search (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/homePageNew.js:21:10)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:27:16)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

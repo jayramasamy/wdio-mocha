@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504260968889' stop='1504260973146'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504260968892' status='broken' stop='1504260973145'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504260968898' status='passed' stop='1504260968929'>
+                    <name>POST /wd/hub/session/283259eb22fdf31481ced989407e258b/url</name>
+                    <title>POST /wd/hub/session/283259eb22fdf31481ced989407e258b/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8b190feb-0dc3-4e97-9038-14c2e1f96a72-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='9dbbe736-db46-45cd-8b94-4685c52742c3-attachment.json' type='application/json' size='594'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='1e285456-1a5f-4751-82e1-2cb3bc24bdf4-attachment.json' type='application/json' size='594'/>
+                <attachment title='Response' source='e9ebd8c4-9e22-4870-8a58-08c8e5eb280e-attachment.json' type='application/json' size='91'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'searchInputBox' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'searchInputBox' of undefined
+                    at Object.search (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/homePageNew.js:18:7)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:27:16)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

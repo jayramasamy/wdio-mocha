@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504254633208' stop='1504254636910'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504254633210' status='broken' stop='1504254636908'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504254633215' status='passed' stop='1504254636887'>
+                    <name>POST /wd/hub/session/b5dd08d20a45a04250656e9141bbca05/url</name>
+                    <title>POST /wd/hub/session/b5dd08d20a45a04250656e9141bbca05/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e21d047d-9555-470d-b717-ed4b5aa2302c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='abaaf51c-df8d-4ad4-b43b-2270612098b3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'searchInputBox' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'searchInputBox' of undefined
+                    at Object.search (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/homePageNew.js:19:5)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:27:16)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,296 @@
+{
+  "a63bf444bebe8f9c216e86da6e528939" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3259638e090784d4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192496840,
+        "stop" : 1504192516842,
+        "duration" : 20002
+      }
+    } ]
+  },
+  "f9fab04e867217913714e26e92df48c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc57f0db8f97502b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192563459,
+        "stop" : 1504192583462,
+        "duration" : 20003
+      }
+    } ]
+  },
+  "558016ba5624c6aa28fa1a735885df23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a17f4db543ee6a5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192456826,
+        "stop" : 1504192476828,
+        "duration" : 20002
+      }
+    } ]
+  },
+  "d365db49aacd2c23b729a5c76e52fdd4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3341ab403c30751",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192516846,
+        "stop" : 1504192536848,
+        "duration" : 20002
+      }
+    } ]
+  },
+  "b5a6222fa02a190209ef289a29d83bdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ca11a7977362031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192536851,
+        "stop" : 1504192543541,
+        "duration" : 6690
+      }
+    } ]
+  },
+  "1eaf397df34522c034937c1d384ecaa8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b9b7475119c3d68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192583464,
+        "stop" : 1504192591486,
+        "duration" : 8022
+      }
+    } ]
+  },
+  "29fe37d810d18b050891991344ada98e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "126cbd4b064a0451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192591487,
+        "stop" : 1504192593881,
+        "duration" : 2394
+      }
+    } ]
+  },
+  "a68e4809708912124a33f2cd2b229338" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "318d30024c5922ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192413881,
+        "stop" : 1504192431597,
+        "duration" : 17716
+      }
+    } ]
+  },
+  "5e36c36d50ad83db97fcdba390ab393e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7945132c9dc9bc85",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192543542,
+        "stop" : 1504192563457,
+        "duration" : 19915
+      }
+    } ]
+  },
+  "1a9c776734cc70e0e366c70bda210fd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd003d95226be99f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192476832,
+        "stop" : 1504192496840,
+        "duration" : 20008
+      }
+    } ]
+  },
+  "a3609ab6c64735ad8ed8ad4cc12c6950" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "696fd2e5e2127c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192593881,
+        "stop" : 1504192594359,
+        "duration" : 478
+      }
+    } ]
+  },
+  "31e30180e0124429faeed26c4222f791" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f22777469287b85",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'selector' of undefined",
+      "time" : {
+        "start" : 1504192436254,
+        "stop" : 1504192436874,
+        "duration" : 620
+      }
+    } ]
+  },
+  "cb7c3402a5e5a0f5c2531f61ea02b09e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ac8790bc02f2b9d",
+      "status" : "broken",
+      "statusDetails" : "_homePage2.default.search is not a function",
+      "time" : {
+        "start" : 1504192436875,
+        "stop" : 1504192436877,
+        "duration" : 2
+      }
+    } ]
+  },
+  "8c61a4c040b1e1ac1b25b26bfa486a30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2270463438140446",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192431599,
+        "stop" : 1504192436253,
+        "duration" : 4654
+      }
+    } ]
+  },
+  "ccc924f3fcb0c88af955e5492c8b6ebf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "359372d5bdbc906a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1504192436878,
+        "stop" : 1504192456818,
+        "duration" : 19940
+      }
+    } ]
+  }
+}

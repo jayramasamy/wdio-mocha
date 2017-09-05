@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504259483918' stop='1504259488373'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504259483919' status='broken' stop='1504259488372'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504259483924' status='passed' stop='1504259484006'>
+                    <name>POST /wd/hub/session/f379be31d5ae38dc88fb90cb2af4af0c/url</name>
+                    <title>POST /wd/hub/session/f379be31d5ae38dc88fb90cb2af4af0c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d071ec3c-e20d-4639-9b63-37c83ef827ca-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='5ebde0ab-4501-4563-ac8e-f01d9d416214-attachment.json' type='application/json' size='594'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='d1e51e96-4580-485b-863e-f737d27b619a-attachment.json' type='application/json' size='594'/>
+                <attachment title='Response' source='41d7d748-1028-4d5c-a344-2dd203c0f925-attachment.json' type='application/json' size='91'/>
+            </attachments>
+            <failure>
+                <message>this.searchGoButton.click is not a function</message>
+                <stack-trace>TypeError: this.searchGoButton.click is not a function
+                    at Object.search (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/homePageNew.js:21:25)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:27:16)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,129 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read property 'selector' of undefined",
+      "children" : [ {
+        "name" : "I should see the slot details on the context card",
+        "uid" : "8f22777469287b85",
+        "parentUid" : "d21c7dd1b9c942b12284db341d75a060",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192436254,
+          "stop" : 1504192436874,
+          "duration" : 620
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d21c7dd1b9c942b12284db341d75a060"
+    }, {
+      "name" : "Timeout of 20000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "children" : [ {
+        "name" : "I checkout the order and continue to payment page",
+        "uid" : "fd003d95226be99f",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192476832,
+          "stop" : 1504192496840,
+          "duration" : 20008
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "correct item should be added to the trolley",
+        "uid" : "9a17f4db543ee6a5",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192456826,
+          "stop" : 1504192476828,
+          "duration" : 20002
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I should see the order confirmation page",
+        "uid" : "f3341ab403c30751",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192516846,
+          "stop" : 1504192536848,
+          "duration" : 20002
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "the order should be cancelled",
+        "uid" : "bc57f0db8f97502b",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192563459,
+          "stop" : 1504192583462,
+          "duration" : 20003
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I add the first avaialble item on search results page",
+        "uid" : "359372d5bdbc906a",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192436878,
+          "stop" : 1504192456818,
+          "duration" : 19940
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I provide the valid card details to confirm the order",
+        "uid" : "3259638e090784d4",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192496840,
+          "stop" : 1504192516842,
+          "duration" : 20002
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "I cancel the pending order and confirm confirmation",
+        "uid" : "7945132c9dc9bc85",
+        "parentUid" : "a8ac9a980a24f205e83b24d9204276d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192543542,
+          "stop" : 1504192563457,
+          "duration" : 19915
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8ac9a980a24f205e83b24d9204276d0"
+    }, {
+      "name" : "_homePage2.default.search is not a function",
+      "children" : [ {
+        "name" : "I search for cola",
+        "uid" : "7ac8790bc02f2b9d",
+        "parentUid" : "f4f5ea5f72b1f0b32bc2b8cb28ecfc74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504192436875,
+          "stop" : 1504192436877,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4f5ea5f72b1f0b32bc2b8cb28ecfc74"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

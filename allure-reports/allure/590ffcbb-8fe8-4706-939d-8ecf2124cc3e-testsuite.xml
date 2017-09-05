@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504191084982' stop='1504191090130'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504191084983' status='broken' stop='1504191090130'>
+            <name>I have logged in with valid credentials</name>
+            <title>I have logged in with valid credentials</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504191084986' status='passed' stop='1504191090112'>
+                    <name>POST /wd/hub/session/a8fe14f751addd9f65348005716164ea/url</name>
+                    <title>POST /wd/hub/session/a8fe14f751addd9f65348005716164ea/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c3b1e75d-4d09-4216-8426-750d67a19d9e-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='48c17d7c-4626-4868-9904-b10a1fa052d4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>open is not defined</message>
+                <stack-trace>ReferenceError: open is not defined
+                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:17:7)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:40:17)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

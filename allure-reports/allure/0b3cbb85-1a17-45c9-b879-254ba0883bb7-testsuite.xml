@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504596449385' stop='1504596458329'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504596449387' status='broken' stop='1504596458328'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504596449396' status='passed' stop='1504596457498'>
+                    <name>POST /wd/hub/session/57465f0c2586a073b58d1328029446d3/url</name>
+                    <title>POST /wd/hub/session/57465f0c2586a073b58d1328029446d3/url</title>
+                    <attachments>
+                        <attachment title='Request' source='37c42070-6eb4-4b49-94e5-eea55912ca78-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='1643afd1-ba79-4784-8f7a-fd63c553a5b9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504596457507' status='passed' stop='1504596457736'>
+                    <name>POST /wd/hub/session/57465f0c2586a073b58d1328029446d3/url</name>
+                    <title>POST /wd/hub/session/57465f0c2586a073b58d1328029446d3/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3c239c71-e15d-4cfd-a565-3df335a3c6c5-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='cf8b04f5-1b35-4cbf-a012-b2ff0c61ca08-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504596457750' status='passed' stop='1504596457784'>
+                    <name>POST /wd/hub/session/57465f0c2586a073b58d1328029446d3/elements</name>
+                    <title>POST /wd/hub/session/57465f0c2586a073b58d1328029446d3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7c6c9b1c-1d52-4785-997a-54c4e2235800-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='e9e23cea-acde-442a-810a-2d835dfaeb82-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504596457787' status='passed' stop='1504596458325'>
+                    <name>GET /wd/hub/session/57465f0c2586a073b58d1328029446d3/screenshot</name>
+                    <title>GET /wd/hub/session/57465f0c2586a073b58d1328029446d3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c3e57250-6d21-474f-bd69-93070b9228b7-attachment.png' type='image/png' size='115453'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("input[type=email]").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("input[type=email]").
+                    at setValue("input[type=email]", "jaytestuk5@mailinator.com") - at elements("input[type=email]") - setValue.js:29:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

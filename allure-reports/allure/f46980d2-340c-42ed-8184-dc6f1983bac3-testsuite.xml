@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504261130506' stop='1504261140943'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504261130510' status='broken' stop='1504261140943'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504261130520' status='passed' stop='1504261130549'>
+                    <name>POST /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/url</name>
+                    <title>POST /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/url</title>
+                    <attachments>
+                        <attachment title='Request' source='889f24b9-97ec-465a-afb4-911b4c96a4cb-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='2fe011f5-c251-4dea-bd43-b490a50dc215-attachment.json' type='application/json' size='666'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261134280' status='passed' stop='1504261136716'>
+                    <name>POST /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/url</name>
+                    <title>POST /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/url</title>
+                    <attachments>
+                        <attachment title='Request' source='61460021-80d9-45cc-8860-0aac6c4e5085-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='30dcc51f-2f70-4db6-a8aa-af040a62662f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261136720' status='passed' stop='1504261140402'>
+                    <name>POST /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/url</name>
+                    <title>POST /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dd387c59-0f24-46ef-90b5-d6dde1114a90-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='01b7b238-6b6b-487f-917d-0336128db350-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261140407' status='passed' stop='1504261140926'>
+                    <name>GET /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/screenshot</name>
+                    <title>GET /wd/hub/session/b7ad4c8714ce99dd4956bf2ce4bea39d/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5392afb5-f7ff-47dd-9790-e62aca4b80b4-attachment.png' type='image/png' size='54558'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='18ca12b2-4687-40bf-9f06-7136d4eb7276-attachment.json' type='application/json' size='388'/>
+                <attachment title='Response' source='24458737-57ee-4c5d-996e-c44b2716d99f-attachment.json' type='application/json' size='594'/>
+                <attachment title='Response' source='a1203bb1-d0d2-48a3-90f3-07980a4520e8-attachment.json' type='application/json' size='666'/>
+                <attachment title='Response' source='be39fc6c-4383-44fb-a82f-9bccd9830a84-attachment.json' type='application/json' size='91'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("#query+button.icon-search-white").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("#query+button.icon-search-white").
+                    at setValue("input[type=email]", "jaytestuk5@mailinator.com") - at elements("input[type=email]") - setValue.js:29:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

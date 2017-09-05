@@ -1,0 +1,151 @@
+[ {
+  "uid" : "318d30024c5922ce",
+  "name" : "I have logged in with valid credentials",
+  "time" : {
+    "start" : 1504192413881,
+    "stop" : 1504192431597,
+    "duration" : 17716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd003d95226be99f",
+  "name" : "I checkout the order and continue to payment page",
+  "time" : {
+    "start" : 1504192476832,
+    "stop" : 1504192496840,
+    "duration" : 20008
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7ac8790bc02f2b9d",
+  "name" : "I search for cola",
+  "time" : {
+    "start" : 1504192436875,
+    "stop" : 1504192436877,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9ca11a7977362031",
+  "name" : "I am on the my orders page",
+  "time" : {
+    "start" : 1504192536851,
+    "stop" : 1504192543541,
+    "duration" : 6690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b9b7475119c3d68",
+  "name" : "I navigate to the home page",
+  "time" : {
+    "start" : 1504192583464,
+    "stop" : 1504192591486,
+    "duration" : 8022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a17f4db543ee6a5",
+  "name" : "correct item should be added to the trolley",
+  "time" : {
+    "start" : 1504192456826,
+    "stop" : 1504192476828,
+    "duration" : 20002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2270463438140446",
+  "name" : "I have booked the 1st available delivery slot",
+  "time" : {
+    "start" : 1504192431599,
+    "stop" : 1504192436253,
+    "duration" : 4654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3259638e090784d4",
+  "name" : "I provide the valid card details to confirm the order",
+  "time" : {
+    "start" : 1504192496840,
+    "stop" : 1504192516842,
+    "duration" : 20002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "359372d5bdbc906a",
+  "name" : "I add the first avaialble item on search results page",
+  "time" : {
+    "start" : 1504192436878,
+    "stop" : 1504192456818,
+    "duration" : 19940
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "696fd2e5e2127c59",
+  "name" : "I am signed out",
+  "time" : {
+    "start" : 1504192593881,
+    "stop" : 1504192594359,
+    "duration" : 478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "126cbd4b064a0451",
+  "name" : "I sign out",
+  "time" : {
+    "start" : 1504192591487,
+    "stop" : 1504192593881,
+    "duration" : 2394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7945132c9dc9bc85",
+  "name" : "I cancel the pending order and confirm confirmation",
+  "time" : {
+    "start" : 1504192543542,
+    "stop" : 1504192563457,
+    "duration" : 19915
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f3341ab403c30751",
+  "name" : "I should see the order confirmation page",
+  "time" : {
+    "start" : 1504192516846,
+    "stop" : 1504192536848,
+    "duration" : 20002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8f22777469287b85",
+  "name" : "I should see the slot details on the context card",
+  "time" : {
+    "start" : 1504192436254,
+    "stop" : 1504192436874,
+    "duration" : 620
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bc57f0db8f97502b",
+  "name" : "the order should be cancelled",
+  "time" : {
+    "start" : 1504192563459,
+    "stop" : 1504192583462,
+    "duration" : 20003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

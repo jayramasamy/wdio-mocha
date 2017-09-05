@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504191397181' stop='1504191405342'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504191397182' status='broken' stop='1504191405340'>
+            <name>I have logged in with valid credentials</name>
+            <title>I have logged in with valid credentials</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504191397186' status='passed' stop='1504191401588'>
+                    <name>POST /wd/hub/session/32c60c37c6dc2049af1ac63db1a4da1c/url</name>
+                    <title>POST /wd/hub/session/32c60c37c6dc2049af1ac63db1a4da1c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='46b4f12b-09d8-482d-bba9-1f6cd02c234d-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='e62a24e4-251a-4536-89b0-c9ba348a411b-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504191401597' status='passed' stop='1504191405327'>
+                    <name>POST /wd/hub/session/32c60c37c6dc2049af1ac63db1a4da1c/url</name>
+                    <title>POST /wd/hub/session/32c60c37c6dc2049af1ac63db1a4da1c/url</title>
+                    <attachments>
+                        <attachment title='Request' source='90ec2422-a36a-461a-9d17-39eeafe928d9-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='ddef26be-236c-4f07-a2e0-c39369ad83c5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>emailId is not defined</message>
+                <stack-trace>ReferenceError: emailId is not defined
+                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

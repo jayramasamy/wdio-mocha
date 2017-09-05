@@ -1,0 +1,10 @@
+{
+    "message": "unknown error: cannot focus element",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": 13,
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "unknown error: cannot focus element\n  (Session info: chrome=60.0.3112.113)\n  (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.11.6 x86_64)"
+    }
+}

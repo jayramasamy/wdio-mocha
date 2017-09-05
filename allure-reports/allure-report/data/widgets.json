@@ -1,0 +1,75 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "time" : {
+      "start" : 1504192413881,
+      "stop" : 1504192594359,
+      "duration" : 180478,
+      "minDuration" : 2,
+      "maxDuration" : 20008,
+      "sumDuration" : 180448
+    }
+  },
+  "environment" : [ {
+    "values" : [ "{\"browserName\":\"chrome\"}" ],
+    "name" : "capabilities"
+  }, {
+    "values" : [ "[\"/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js\"]" ],
+    "name" : "spec files"
+  } ],
+  "suites" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "c0a192cd05b33525a5ebef78253e6506",
+      "name" : "sanity test golden path",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 15
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ],
+  "behaviors" : {
+    "total" : 15,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

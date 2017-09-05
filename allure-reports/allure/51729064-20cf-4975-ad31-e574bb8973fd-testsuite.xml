@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504259657540' stop='1504259662319'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504259657543' status='broken' stop='1504259662319'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504259657558' status='passed' stop='1504259657658'>
+                    <name>POST /wd/hub/session/14c74bedba761067d8de12ee9d065b63/url</name>
+                    <title>POST /wd/hub/session/14c74bedba761067d8de12ee9d065b63/url</title>
+                    <attachments>
+                        <attachment title='Request' source='73e95d35-e7d1-4819-b1c5-15fb9a896fb4-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='f2ebd137-fb24-4710-bfc9-1bd66a0fe38e-attachment.json' type='application/json' size='594'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504259661531' status='passed' stop='1504259662310'>
+                    <name>GET /wd/hub/session/14c74bedba761067d8de12ee9d065b63/screenshot</name>
+                    <title>GET /wd/hub/session/14c74bedba761067d8de12ee9d065b63/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fbadb0c7-587d-4a1e-8334-1235734df2b8-attachment.png' type='image/png' size='516528'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='db73dff3-03cc-4e22-9a7b-48b548652a86-attachment.json' type='application/json' size='594'/>
+                <attachment title='Response' source='c3fe789d-f3b4-4edb-91ec-a9ebf2f23018-attachment.json' type='application/json' size='91'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'ELEMENT' of null</message>
+                <stack-trace>TypeError: Cannot read property 'ELEMENT' of null
+                    at element("#query") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

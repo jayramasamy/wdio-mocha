@@ -1,0 +1,128 @@
+{
+  "uid" : "5c4db8d680a3b367",
+  "name" : "I have logged in with valid credentials",
+  "fullName" : "sanity test golden path.I have logged in with valid credentials",
+  "historyId" : "a68e4809708912124a33f2cd2b229338",
+  "time" : {
+    "start" : 1504191397182,
+    "stop" : 1504191405340,
+    "duration" : 8158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "emailId is not defined",
+    "trace" : "ReferenceError: emailId is not defined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "emailId is not defined",
+      "trace" : "ReferenceError: emailId is not defined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/32c60c37c6dc2049af1ac63db1a4da1c/url",
+      "time" : {
+        "start" : 1504191397186,
+        "stop" : 1504191401588,
+        "duration" : 4402
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "517b69767701db66",
+        "name" : "Request",
+        "source" : "517b69767701db66.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "12ad061c5958f9f0",
+        "name" : "Response",
+        "source" : "12ad061c5958f9f0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/32c60c37c6dc2049af1ac63db1a4da1c/url",
+      "time" : {
+        "start" : 1504191401597,
+        "stop" : 1504191405327,
+        "duration" : 3730
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd9d228f6863f274",
+        "name" : "Request",
+        "source" : "fd9d228f6863f274.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "f7d7d213ae14752d",
+        "name" : "Response",
+        "source" : "f7d7d213ae14752d.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have logged in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "5c4db8d680a3b367.json",
+  "statusDetailsSafe" : {
+    "message" : "emailId is not defined",
+    "trace" : "ReferenceError: emailId is not defined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}

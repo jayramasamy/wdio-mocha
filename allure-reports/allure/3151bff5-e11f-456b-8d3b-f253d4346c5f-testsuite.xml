@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504191276690' stop='1504191304955'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504191276691' status='broken' stop='1504191304947'>
+            <name>I have logged in with valid credentials</name>
+            <title>I have logged in with valid credentials</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504191276697' status='passed' stop='1504191295109'>
+                    <name>POST /wd/hub/session/2c9938f5d53e7fa823c35380ae7673e8/url</name>
+                    <title>POST /wd/hub/session/2c9938f5d53e7fa823c35380ae7673e8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='39893d01-f668-4192-aedd-fabfc1033db1-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='05c939c2-c276-4b26-aed4-306da26e63d8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504191295131' status='passed' stop='1504191304900'>
+                    <name>POST /wd/hub/session/2c9938f5d53e7fa823c35380ae7673e8/url</name>
+                    <title>POST /wd/hub/session/2c9938f5d53e7fa823c35380ae7673e8/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1afde96d-6670-49a0-aee4-d35e504f573d-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='c862da73-c35c-4f67-8669-6faf4dbbf67d-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'emailId' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'emailId' of undefined
+                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)
+                    at Context.&lt;anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)
+                    at Promise (&lt;anonymous>)
+                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

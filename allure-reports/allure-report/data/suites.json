@@ -1,0 +1,189 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "sanity test golden path",
+    "children" : [ {
+      "name" : "I am signed out",
+      "uid" : "696fd2e5e2127c59",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192593881,
+        "stop" : 1504192594359,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I sign out",
+      "uid" : "126cbd4b064a0451",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192591487,
+        "stop" : 1504192593881,
+        "duration" : 2394
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I have logged in with valid credentials",
+      "uid" : "318d30024c5922ce",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192413881,
+        "stop" : 1504192431597,
+        "duration" : 17716
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I provide the valid card details to confirm the order",
+      "uid" : "3259638e090784d4",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192496840,
+        "stop" : 1504192516842,
+        "duration" : 20002
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I checkout the order and continue to payment page",
+      "uid" : "fd003d95226be99f",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192476832,
+        "stop" : 1504192496840,
+        "duration" : 20008
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "the order should be cancelled",
+      "uid" : "bc57f0db8f97502b",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192563459,
+        "stop" : 1504192583462,
+        "duration" : 20003
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I have booked the 1st available delivery slot",
+      "uid" : "2270463438140446",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192431599,
+        "stop" : 1504192436253,
+        "duration" : 4654
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "correct item should be added to the trolley",
+      "uid" : "9a17f4db543ee6a5",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192456826,
+        "stop" : 1504192476828,
+        "duration" : 20002
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I add the first avaialble item on search results page",
+      "uid" : "359372d5bdbc906a",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192436878,
+        "stop" : 1504192456818,
+        "duration" : 19940
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the order confirmation page",
+      "uid" : "f3341ab403c30751",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192516846,
+        "stop" : 1504192536848,
+        "duration" : 20002
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I navigate to the home page",
+      "uid" : "5b9b7475119c3d68",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192583464,
+        "stop" : 1504192591486,
+        "duration" : 8022
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am on the my orders page",
+      "uid" : "9ca11a7977362031",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504192536851,
+        "stop" : 1504192543541,
+        "duration" : 6690
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I cancel the pending order and confirm confirmation",
+      "uid" : "7945132c9dc9bc85",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192543542,
+        "stop" : 1504192563457,
+        "duration" : 19915
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I search for cola",
+      "uid" : "7ac8790bc02f2b9d",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192436875,
+        "stop" : 1504192436877,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the slot details on the context card",
+      "uid" : "8f22777469287b85",
+      "parentUid" : "c0a192cd05b33525a5ebef78253e6506",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504192436254,
+        "stop" : 1504192436874,
+        "duration" : 620
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0a192cd05b33525a5ebef78253e6506"
+  } ]
+}

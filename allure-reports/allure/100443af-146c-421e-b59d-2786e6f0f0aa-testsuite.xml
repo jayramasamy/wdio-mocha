@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504261152220' stop='1504261164149'>
+    <name>sanity test golden path</name>
+    <title>sanity test golden path</title>
+    <test-cases>
+        <test-case start='1504261152223' status='broken' stop='1504261164148'>
+            <name>Place a delivery order and then cancel the order</name>
+            <title>Place a delivery order and then cancel the order</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1504261152235' status='passed' stop='1504261152281'>
+                    <name>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/url</name>
+                    <title>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='af5eea8c-6a18-4d66-bfe6-97efc4e1d11b-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='1c4c670c-958e-4f27-ae67-beb810282ec8-attachment.json' type='application/json' size='594'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261157425' status='passed' stop='1504261157465'>
+                    <name>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/url</name>
+                    <title>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='db86dfa7-f4f8-4cb5-92e2-7687cc83140a-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='a55e779b-5131-4fa4-b32b-ab28a42115be-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261160664' status='passed' stop='1504261163616'>
+                    <name>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/url</name>
+                    <title>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='72fcdaa7-eb68-4985-ad84-5709842bb044-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='55de1bb1-3fd6-48ee-8f39-081217921eb6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261163621' status='passed' stop='1504261163640'>
+                    <name>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/element/0.5621488179207466-1/elements</name>
+                    <title>POST /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/element/0.5621488179207466-1/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3acb3a9a-ea52-4430-9f6d-09f03d4c1a37-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='4979397b-df60-4652-8802-f816bdec726a-attachment.json' type='application/json' size='583'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504261163641' status='passed' stop='1504261164146'>
+                    <name>GET /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/screenshot</name>
+                    <title>GET /wd/hub/session/865996ae7e7e6e0b6d12e146b801730a/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d388f410-24ea-403e-97fa-3305cbd80268-attachment.png' type='image/png' size='54558'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='20557255-19d5-4e8c-8943-a067779771df-attachment.json' type='application/json' size='594'/>
+                <attachment title='Response' source='183ae010-6a59-4bac-b55d-484368d30881-attachment.json' type='application/json' size='91'/>
+                <attachment title='Response' source='2efad153-2b25-44d7-9c5b-4f8f4a92685f-attachment.json' type='application/json' size='136'/>
+                <attachment title='Response' source='00ae19d8-a501-4d82-93e6-459362a60a48-attachment.json' type='application/json' size='91'/>
+            </attachments>
+            <failure>
+                <message>stale element reference: element is not attached to the page document</message>
+                <stack-trace>Error: An element command failed because the referenced element is no longer attached to the DOM.
+                    at setValue("input[type=email]", "jaytestuk5@mailinator.com") - at elements("input[type=email]") - setValue.js:29:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

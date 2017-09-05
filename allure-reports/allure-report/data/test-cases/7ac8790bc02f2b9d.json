@@ -1,0 +1,60 @@
+{
+  "uid" : "7ac8790bc02f2b9d",
+  "name" : "I search for cola",
+  "fullName" : "sanity test golden path.I search for cola",
+  "historyId" : "cb7c3402a5e5a0f5c2531f61ea02b09e",
+  "time" : {
+    "start" : 1504192436875,
+    "stop" : 1504192436877,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "_homePage2.default.search is not a function",
+    "trace" : "TypeError: _homePage2.default.search is not a function\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:43:14)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search for cola"
+  }, {
+    "name" : "package",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "7ac8790bc02f2b9d.json",
+  "statusDetailsSafe" : {
+    "message" : "_homePage2.default.search is not a function",
+    "trace" : "TypeError: _homePage2.default.search is not a function\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:43:14)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}

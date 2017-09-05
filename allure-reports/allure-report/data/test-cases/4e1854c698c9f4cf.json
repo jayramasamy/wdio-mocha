@@ -1,0 +1,128 @@
+{
+  "uid" : "4e1854c698c9f4cf",
+  "name" : "I have logged in with valid credentials",
+  "fullName" : "sanity test golden path.I have logged in with valid credentials",
+  "historyId" : "a68e4809708912124a33f2cd2b229338",
+  "time" : {
+    "start" : 1504191276691,
+    "stop" : 1504191304947,
+    "duration" : 28256
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot read property 'emailId' of undefined",
+    "trace" : "TypeError: Cannot read property 'emailId' of undefined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Cannot read property 'emailId' of undefined",
+      "trace" : "TypeError: Cannot read property 'emailId' of undefined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2c9938f5d53e7fa823c35380ae7673e8/url",
+      "time" : {
+        "start" : 1504191276697,
+        "stop" : 1504191295109,
+        "duration" : 18412
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5cf3964694387faf",
+        "name" : "Request",
+        "source" : "5cf3964694387faf.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "dbcc4c17283ed628",
+        "name" : "Response",
+        "source" : "dbcc4c17283ed628.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/2c9938f5d53e7fa823c35380ae7673e8/url",
+      "time" : {
+        "start" : 1504191295131,
+        "stop" : 1504191304900,
+        "duration" : 9769
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62a6af134169c048",
+        "name" : "Request",
+        "source" : "62a6af134169c048.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "d527ad538212d577",
+        "name" : "Response",
+        "source" : "d527ad538212d577.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have logged in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "4e1854c698c9f4cf.json",
+  "statusDetailsSafe" : {
+    "message" : "Cannot read property 'emailId' of undefined",
+    "trace" : "TypeError: Cannot read property 'emailId' of undefined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:19:21)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:41:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}

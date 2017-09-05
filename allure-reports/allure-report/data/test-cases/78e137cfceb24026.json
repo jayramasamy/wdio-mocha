@@ -1,0 +1,98 @@
+{
+  "uid" : "78e137cfceb24026",
+  "name" : "I have logged in with valid credentials",
+  "fullName" : "sanity test golden path.I have logged in with valid credentials",
+  "historyId" : "a68e4809708912124a33f2cd2b229338",
+  "time" : {
+    "start" : 1504191084983,
+    "stop" : 1504191090130,
+    "duration" : 5147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "open is not defined",
+    "trace" : "ReferenceError: open is not defined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:17:7)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:40:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "open is not defined",
+      "trace" : "ReferenceError: open is not defined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:17:7)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:40:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a8fe14f751addd9f65348005716164ea/url",
+      "time" : {
+        "start" : 1504191084986,
+        "stop" : 1504191090112,
+        "duration" : 5126
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "222ab2551e99b75a",
+        "name" : "Request",
+        "source" : "222ab2551e99b75a.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "1bcf98e591471c66",
+        "name" : "Response",
+        "source" : "1bcf98e591471c66.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have logged in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "sanity test golden path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "78e137cfceb24026.json",
+  "statusDetailsSafe" : {
+    "message" : "open is not defined",
+    "trace" : "ReferenceError: open is not defined\n                    at Object.login (/Users/jayramasamy/mocha-wdrio/pageObjects/pages/base/loginPage.js:17:7)\n                    at Context.<anonymous> (/Users/jayramasamy/mocha-wdrio/tests/goldenpath.js:40:17)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/mocha-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}
