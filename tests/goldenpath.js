@@ -44,12 +44,13 @@ describe('sanity test golden path', function() {
       var availableProducts =  browser.elements('.add-control');
       browser.elementIdClick(availableProducts.value[0].ELEMENT);
       // check correct iems added
-  
+
       var trolleyItemTitle = browser.getText('.mini-tile .mini-tile__title');
       expect(trolleyItemTitle).to.equal(itemTitle);
 
       // checkout
       browser.waitForEnabled(HomePage.checkoutButton);
+      //  
       browser.url('checkout/review-trolley');
       browser.waitForExist("a[href*='checkout/order-summary']");
       browser.click("a[href*='checkout/order-summary']");

@@ -1,7 +1,7 @@
 ppe:
   pl:
-    base_url: 'https://ezakupy.tesco.pl'
+    base_url: 'http://xxxxxx.xxxxx.xx'
     country_code: 'en-GB'
   uk:
-    base_url: 'https://www.tesco.com/groceries/en-GB'
+    base_url: 'https://www.xxxxxxxxx.xxx'
     country_code: 'en-GB'

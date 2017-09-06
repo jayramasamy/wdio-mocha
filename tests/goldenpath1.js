@@ -1,23 +1,23 @@
-import { config } from '../wdio.conf';
-import chai from 'chai';
-import { expect } from 'chai';
-
-let chaiWebdriver = require('chai-webdriverio').default;
-chai.use(chaiWebdriver(browser));
-let options = {defaultWait: 10000} // 5000ms
-chai.use(chaiWebdriver(browser, options));
-
-
-import {readJsonFile,readYamlFile,readUserData,readCountryConfigData} from "../lib/helper";
-import HomePage from '../pageObjects/pages/base/homePage';
-import LoginPage from '../pageObjects/pages/base/loginPage';
-import DeliveryPage from '../pageObjects/pages/base/deliveryPage';
-
-
-//enviroment data from environments_url.yaml
-const envData = readCountryConfigData(process.env.ENVIRONMENT,process.env.COUNTRY, null, null)
-config.base_url = envData.base_url;
-
+// import { config } from '../wdio.conf';
+// import chai from 'chai';
+// import { expect } from 'chai';
+//
+// let chaiWebdriver = require('chai-webdriverio').default;
+// chai.use(chaiWebdriver(browser));
+// let options = {defaultWait: 10000} // 5000ms
+// chai.use(chaiWebdriver(browser, options));
+//
+//
+// import {readJsonFile,readYamlFile,readUserData,readCountryConfigData} from "../lib/helper";
+// import HomePage from '../pageObjects/pages/base/homePage';
+// import LoginPage from '../pageObjects/pages/base/loginPage';
+// import DeliveryPage from '../pageObjects/pages/base/deliveryPage';
+//
+//
+// //enviroment data from environments_url.yaml
+// const envData = readCountryConfigData(process.env.ENVIRONMENT,process.env.COUNTRY, null, null)
+// config.base_url = envData.base_url;
+//
 //
 // describe('sanity test golden path all detailed steps', function() {
 // /// start the tests here
