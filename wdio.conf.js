@@ -31,7 +31,7 @@ exports.config = {
     }],
     logLevel: 'silent',
     coloredLogs: true,
-    baseUrl: 'https://www.tesco.com/groceries/en-GB',
+    baseUrl: 'https://www.xxx.xx/xxx/xxxx-GB',
     waitforTimeout: 60000,
     reporters: ['spec','dot', 'allure'],
     reporterOptions: {
